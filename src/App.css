@@ -1,1 +1,85 @@
 
+/* BOX ZISING */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+/* ----------- */
+
+/*  CONFIGURACION REM */
+html{
+    font-size: 62.5%;
+
+    scroll-snap-type: y mandatory;
+}
+
+body{
+
+    font-size: 16px;
+}
+
+/* ----------- */
+
+/* Global Variables */
+
+:root {
+  --color-01: #6C4BB6;
+  --color-02: #8E72E1;
+  --color-03: #D6CCFF;
+  --color-04: #FBFAFF;
+  --color-05: #8E9EFE;
+  --color-06: #F3FEFF;
+  --color-07: #C0FBFF;
+  --color-08: #00B5DD;
+  --red-01: #B93537;
+  --red-02: #FF9595;
+  --green-01: #4CAF50;
+  --green-02: #95FFD1;
+  --fancy-font: 'Tagesschrift', system-ui;
+  --clean-font: 'Readex Pro', sans-serif;
+}
+/* ----------- */
+
+
+
+/* Font Styles */
+
+.logo-font {
+  font-family: var(--fancy-font);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
+}
+
+.font-01 {
+  font-family: var(--fancy-font);
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 3rem;
+}
+
+.readex-pro {
+  font-family: "Readex Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* ----------- */
+
+
+
+/* global styles */
+
+
+body{
+  margin: 0;
+}
+
+.button {
+  border-radius: 1.5rem;
+  padding: 1rem 2rem;
+}
