@@ -1,6 +1,6 @@
-import React from 'react'
-import './sidebar.css'
 import imgperfil from '../assets/perfil.jpeg'
+import './styles/Components.css'
+import './styles/Sidebar.css'
 
 const Sidebar = () => {
   return (

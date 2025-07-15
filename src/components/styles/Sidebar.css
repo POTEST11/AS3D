@@ -1,19 +1,15 @@
-/*Creo que se podria resumir en una variable.*/
 @import url("https://fonts.googleapis.com/css2?family=Jersey+10&family=Poiret+One&display=swap");
-
-/*Considero que algo hay que configurar en el body en general pero no se que.*/
-body {
-}
 
 .sidebar-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 90px;
-  width: 14rem;
+  width: 22.4rem;
   height: 100vh;
   background-color: #d6ccff;
   padding-top: 30px;
+  margin-top: 10px;
 }
 
 .infoPerfil-container {
@@ -24,8 +20,8 @@ body {
 }
 
 .img {
-  width: 4.3rem;
-  height: 4.3rem;
+  width: 7rem;
+  height: 7rem;
   border-radius: 15%;
 }
 

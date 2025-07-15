@@ -1,14 +1,11 @@
-<<<<<<< HEAD
-
-import './App.css'
-=======
 import "./App.css";
 import Sidebar from "./components/Sidebar";
->>>>>>> e20dda1 (Sidebar-Dashboard 1st version)
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Sidebar />
     </div>
   );
