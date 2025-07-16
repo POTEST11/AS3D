@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+10&family=Poiret+One&display=swap");
+
+/* BOX SIZING */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+/* ----------- */
+
+/*  CONFIGURACION REM */
+html {
+  font-size: 62.5%;
+
+  scroll-snap-type: y mandatory;
+}
+
+body {
+  font-size: 16px;
+}
+
+/* ----------- */
+
+:root {
+  --color-01: #6c4bb6;
+  --color-02: #8e72e1;
+  --color-03: #d6ccff;
+  --color-04: #fbfaff;
+  --color-05: #8e9efe;
+  --color-06: #f3feff;
+  --color-07: #c0fbff;
+  --color-08: #00b5dd;
+  --red-01: #b93537;
+  --red-02: #ff9595;
+  --green-01: #4caf50;
+  --green-02: #95ffd1;
+  --sombra: #8e9ffe5d 0px 5px 5px;
+}
+
+.Contenedor-Populares {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  background: #8e72e130;
+  width: 100%;
+  height: 55.8rem;
+}
+
+.textos h2 {
+  text-align: center;
+  font-family: "Jersey 10", sans-serif;
+  color: var(--color-01);
+  font-size: 6rem;
+  margin: 0;
+  padding: 0;
+}
+
+.textos,
+p {
+  font-family: "Arial", sans-serif;
+  font-size: 2.5rem;
+  color: var(--color-01);
+  margin: 0;
+  padding: 0;
+}
+/* Carousel Version basica */
+.carousel-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.Tarjetas {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  scrollbar-width: none;
+}
+.Tarjetas::-webkit-scrollbar {
+  display: none;
+}
+
+.tarjeta {
+  min-width: 200px;
+  height: 150px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 1rem;
+  flex-shrink: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white;
+  border-radius: 50%;
+  padding: 0.5rem;
+  font-size: 2rem;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  user-select: none;
+  transition: background 0.2s;
+}
+
+.arrow:hover {
+  background: #eee;
+}
+
+.arrow.left {
+  left: 0.5rem;
+}
+
+.arrow.right {
+  right: 0.5rem;
+}
