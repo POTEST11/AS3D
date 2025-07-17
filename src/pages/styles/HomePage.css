@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Jersey+10&family=Poiret+One&display=swap");
-
 /* BOX SIZING */
 html {
   box-sizing: border-box;
@@ -40,7 +39,10 @@ body {
   --sombra: #8e9ffe5d 0px 5px 5px;
 }
 
-.Contenedor-Populares {
+.home-page {
+}
+
+.contenedor {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -57,6 +59,7 @@ body {
   font-size: 6rem;
   margin: 0;
   padding: 0;
+  user-select: none;
 }
 
 .textos,
@@ -66,6 +69,7 @@ p {
   color: var(--color-01);
   margin: 0;
   padding: 0;
+  user-select: none;
 }
 /* Carousel Version basica */
 .carousel-wrapper {
@@ -97,30 +101,33 @@ p {
   align-items: center;
   justify-content: center;
 }
-
+/* Flechas de navegación */
 .arrow {
+  /*Esta posición permite que las flechas se superpongan al contenido del carrusel 
+  y va relacionada con el valo relativo de la tarjeta que por el momento es de prueba*/
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: white;
-  border-radius: 50%;
-  padding: 0.5rem;
-  font-size: 2rem;
   cursor: pointer;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   z-index: 2;
-  user-select: none;
-  transition: background 0.2s;
-}
-
-.arrow:hover {
-  background: #eee;
+  color: var(--color-01);
+  backdrop-filter: blur(5px);
 }
 
 .arrow.left {
-  left: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0.1rem;
+  width: 8%;
+  height: 100%;
 }
 
 .arrow.right {
-  right: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 0.1rem;
+  width: 8%;
+  height: 100%;
 }
