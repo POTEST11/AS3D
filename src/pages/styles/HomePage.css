@@ -39,9 +39,6 @@ body {
   --sombra: #8e9ffe5d 0px 5px 5px;
 }
 
-.home-page {
-}
-
 .contenedor {
   display: flex;
   flex-direction: column;
@@ -119,7 +116,7 @@ p {
   align-items: center;
   justify-content: center;
   left: 0.1rem;
-  width: 8%;
+  width: 10rem;
   height: 100%;
 }
 
@@ -128,6 +125,6 @@ p {
   align-items: center;
   justify-content: center;
   right: 0.1rem;
-  width: 8%;
+  width: 10rem;
   height: 100%;
 }
