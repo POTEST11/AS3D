@@ -1,4 +1,10 @@
 # Plataforma Web para Gestión y Cotización de Servicios de Impresión 3D 
+🔗 **Documentación y Diseño del Proyecto**  
+- 📘 Documentación técnica y planificación (Notion):  
+  https://www.notion.so/AsThreeD-20f75e9228b7807fa9ffefc9815a2578?source=copy_link  
+- 🎨 Diseño UI/UX y prototipos (Figma):  
+  https://www.figma.com/design/qV8JKZ5ksSLsNmdAHWZfyb/AS3D-001?node-id=12-4&t=2UIE0gJdiKzKHEiB-1  
+
 
 ##  Descripción General
 
