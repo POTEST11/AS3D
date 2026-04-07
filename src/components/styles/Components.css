@@ -1,42 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+10&family=Poiret+One&display=swap");
 
 /* BOX SIZING */
 html {
-    box-sizing: border-box;
-  }
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 /* ----------- */
 
 /*  CONFIGURACION REM */
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 
-    scroll-snap-type: y mandatory;
+  scroll-snap-type: y mandatory;
 }
 
-body{
-
-    font-size: 16px;
+body {
+  font-size: 16px;
 }
 
 /* ----------- */
 
-
 :root {
-  --color-01: #6C4BB6;
-  --color-02: #8E72E1;
-  --color-03: #D6CCFF;
-  --color-04: #FBFAFF;
-  --color-05: #8E9EFE;
-  --color-06: #F3FEFF;
-  --color-07: #C0FBFF;
-  --color-08: #00B5DD;
-  --red-01: #B93537;
-  --red-02: #FF9595;
-  --green-01: #4CAF50;
-  --green-02: #95FFD1;
-  --sombra: #8e9ffe5d 0px 5px 5px; 
+  --color-01: #6c4bb6;
+  --color-02: #8e72e1;
+  --color-03: #d6ccff;
+  --color-04: #fbfaff;
+  --color-05: #8e9efe;
+  --color-06: #f3feff;
+  --color-07: #c0fbff;
+  --color-08: #00b5dd;
+  --red-01: #b93537;
+  --red-02: #ff9595;
+  --green-01: #4caf50;
+  --green-02: #95ffd1;
+  --sombra: #8e9ffe5d 0px 5px 5px;
 }
 
 /* Nav bar */
@@ -44,7 +45,7 @@ body{
 .nav-bar {
   color: var(--color-01);
   width: 100%;
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -53,22 +54,19 @@ body{
 }
 
 .nav-container {
-
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 1rem;
   padding: 0rem 1rem;
-
 }
 
-.logo{
+.logo {
   margin: 0;
   padding: 1rem;
   text-shadow: var(--sombra);
 }
-
 
 .nav-option {
   color: var(--color-01);
@@ -95,9 +93,7 @@ body{
 }
 
 .nav-icon {
- 
   width: 4rem;
-  color: var(--color-01) ;
+  color: var(--color-01);
 }
 /* ----------- */
-
